@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)https://class-sight.netlify.app/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ClassSight</title>
+  <link rel="stylesheet" href="./ClassSight_files/style.css">
+</head>
+<body>
+  <header>
+    <h1>📚 ClassSight</h1>
+    <p>Smart Attendance &amp; Engagement System</p>
+  </header>
+
+  <main>
+    <section id="teacher">
+      <h2>Teacher Dashboard</h2>
+      <input type="file" id="uploadPhotos" multiple="">
+      <button onclick="uploadPhotos()">Upload Student Photos</button>
+      <button onclick="markAttendance()">Mark Attendance</button>
+    </section>
+
+    <section id="student">
+      <h2>Student Live View</h2>
+      <video id="webcam" autoplay="" playsinline=""></video>
+      <canvas id="canvas" hidden=""></canvas>
+    </section>
+
+    <section id="parent">
+      <h2>Parent Access</h2>
+      <p>Check your child's attendance and engagement reports securely.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 ClassSight. Hackathon Project.</p>
+  </footer>
+
+  <script src="./ClassSight_files/script.js.download"></script>
+
+</body></html>
